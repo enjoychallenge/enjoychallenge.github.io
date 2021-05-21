@@ -54,45 +54,6 @@
                 href="/cs/project/consultancy/"
                 />
   </url><url>
-    <loc>/cs/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cs"
-                href="/cs/"
-                />
-  </url><url>
-    <loc>/cs/talk/example-talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/talk/example-talk/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cs"
-                href="/cs/talk/example-talk/"
-                />
-  </url><url>
-    <loc>/cs/event/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/event/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cs"
-                href="/cs/event/"
-                />
-  </url><url>
     <loc>/cs/tag/consultations/</loc>
     <lastmod>2021-05-19T09:00:00+00:00</lastmod>
     <xhtml:link
@@ -104,6 +65,19 @@
                 rel="alternate"
                 hreflang="cs"
                 href="/cs/tag/consultations/"
+                />
+  </url><url>
+    <loc>/cs/</loc>
+    <lastmod>2021-05-19T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cs"
+                href="/cs/"
                 />
   </url><url>
     <loc>/cs/project/</loc>
