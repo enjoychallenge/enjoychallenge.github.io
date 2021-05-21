@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="Ve spolupráci s [LESPROJEKT-SLUŽBY s.r.o.](https://www.lesprojekt.cz/) tvoříme systém pro správu geospatial dat skrz REST API." />
+  <meta name="description" content="Ve spolupráci s firmou [Lesprojekt služby](https://www.lesprojekt.cz/) tvoříme systém pro správu geospatial dat skrz REST API." />
 
   
     <link rel="alternate" hreflang="en" href="/project/layman/" />
@@ -293,7 +293,7 @@
   <meta property="og:site_name" content="Enjoy Challenge" />
   <meta property="og:url" content="/cs/project/layman/" />
   <meta property="og:title" content="Layman | Enjoy Challenge" />
-  <meta property="og:description" content="Ve spolupráci s [LESPROJEKT-SLUŽBY s.r.o.](https://www.lesprojekt.cz/) tvoříme systém pro správu geospatial dat skrz REST API." /><meta property="og:image" content="/cs/project/layman/featured.jpg" />
+  <meta property="og:description" content="Ve spolupráci s firmou [Lesprojekt služby](https://www.lesprojekt.cz/) tvoříme systém pro správu geospatial dat skrz REST API." /><meta property="og:image" content="/cs/project/layman/featured.jpg" />
     <meta property="twitter:image" content="/cs/project/layman/featured.jpg" /><meta property="og:locale" content="cs" />
   
     
@@ -348,7 +348,7 @@
       "url": "/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Ve spolupráci s [LESPROJEKT-SLUŽBY s.r.o.](https://www.lesprojekt.cz/) tvoříme systém pro správu geospatial dat skrz REST API."
+  "description": "Ve spolupráci s firmou [Lesprojekt služby](https://www.lesprojekt.cz/) tvoříme systém pro správu geospatial dat skrz REST API."
 }
 </script>
 
@@ -798,9 +798,9 @@
   
     
   
-  <a class="btn btn-outline-primary btn-page-header" href="https://github.com/LayerManager/" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary btn-page-header" href="https://github.com/LayerManager/layman" target="_blank" rel="noopener">
     <i class="fab fa-github mr-1"></i>
-    Source
+    Zdrojový kód
   </a>
 
 
@@ -822,33 +822,16 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>Publishing geospatial data online through <a href="doc/rest.md">REST API</a>.</p>
-<ul>
-<li>Two publication models available:
-<ul>
-<li><a href="doc/models.md#layer"><strong>layer</strong></a>: visual representation of single vector dataset (i.e. ShapeFile or GeoJSON)</li>
-<li><a href="doc/models.md#map"><strong>map</strong></a>: collection of layers</li>
-</ul>
-</li>
-<li>Accepts data in <a href="https://en.wikipedia.org/wiki/GeoJSON" target="_blank" rel="noopener">GeoJSON</a>, <a href="https://en.wikipedia.org/wiki/Shapefile" target="_blank" rel="noopener">ShapeFile</a>, <a href="https://www.opengeospatial.org/standards/sld" target="_blank" rel="noopener">Styled Layer Descriptor</a>, <a href="https://www.opengeospatial.org/standards/se" target="_blank" rel="noopener">Symbology Encoding</a>, <a href="https://docs.qgis.org/3.16/en/docs/user_manual/appendices/qgis_file_formats.html#qml-the-qgis-style-file-format" target="_blank" rel="noopener">QGIS Style File Format</a> or <a href="https://github.com/hslayers/hslayers-ng/wiki/Composition-schema" target="_blank" rel="noopener">HSLayers Map Composition</a> format</li>
-<li>Even large files can be easily uploaded from browser thanks to asynchronous chunk upload</li>
-<li><a href="doc/security.md#authentication">OAuth2 authentication</a></li>
-<li><a href="doc/security.md#authorization">Authorization</a> enables to set read and write access to each layer and map for specific users</li>
-<li>Asynchronous processing</li>
-<li>Provides URL endpoints
-<ul>
-<li><a href="doc/rest.md">REST API</a></li>
-<li><a href="doc/endpoints.md#web-map-service">Web Map Service (WMS)</a></li>
-<li><a href="doc/endpoints.md#web-feature-service">Web Feature Service (WFS)</a></li>
-<li><a href="doc/endpoints.md#catalogue-service">Catalogue Service (CSW)</a></li>
-</ul>
-</li>
-<li>Documented <a href="doc/security.md">security system</a></li>
-<li>Documented <a href="doc/data-storage.md">data storage</a></li>
-<li>Configurable by environment variables</li>
-<li>Standing on the shoulders of Docker, Python, Flask, PostgreSQL, PostGIS, GDAL, QGIS Server, GeoServer, OpenLayers, Celery, Redis, and <a href="doc/dependencies.md">more</a></li>
-<li>Inspired by <a href="https://github.com/CCSS-CZ/layman" target="_blank" rel="noopener">CCSS-CZ/layman</a></li>
-</ul>
+      <p>Layman je služba pro publikování geoporostorových dat na webu prostřednictvím REST API. Layman přijímá vektorová data ve formátech GeoJSON nebo ShapeFile a spolu s vizuálním stylem je zpřístupňuje přes standardizovaná OGC rozhraní: Web Map Service, Web Feature Service a Catalogue Service. Layman umožňuje snadno publikovat i velké soubory dat, a to díky uploadu po částech a asynchronnímu zpracování.</p>
+<h2 id="nejdůležitější-vlastnosti">Nejdůležitější vlastnosti</h2>
+<h3 id="vrstvy-a-mapy">Vrstvy a mapy</h3>
+<p>Layman podporuje dva základní modely geoprostorových dat: vrstvy a mapy. <strong>Vrstva</strong> je tvořena kombinací vektorových dat (GeoJSON nebo ShapeFile) a vizualizace (SLD nebo SE styl). <strong>Mapa</strong> je kolekcí vrstev, která je popsána ve formátu JSON.</p>
+<h3 id="přístupnost">Přístupnost</h3>
+<p>Existuje více klientských aplikací pro komunikaci s Laymanem prostřednictvím jeho REST API: jednoduchý testovací webový klient, desktopový klient v QGISu a knihovna HSLayers. Publikovaná data jsou přístupná přes standardizovaná OGC rozhraní: Web Map Service, Web Feature Service a Catalogue Service.</p>
+<h3 id="bezpečnost">Bezpečnost</h3>
+<p>Bezpečnostní systém Laymana využívá dvou známých konceptů: autentizace a autorizace. Běžná konfigurace sestává z autentizace založené na protokolu OAuth2 a autorizace zajišťující, že pouze vlastník dat má práva na jejich editaci.</p>
+<h3 id="škálovatelnost">Škálovatelnost</h3>
+<p>Díky uploadu po částech lze snadno publikovat i velké soubory dat. Asynchronní zpracování zajišťuje rychlou komunikaci s REST API. Zpracování dat může být distribuováno na více serverů. Layman stojí na ramenou široce využívaných programů, mezi než patří Flask, PostgreSQL, PostGIS, GDAL, GeoServer, Celery a Redis.</p>
 
     </div>
 

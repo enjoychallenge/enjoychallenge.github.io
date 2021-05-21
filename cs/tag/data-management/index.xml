@@ -17,33 +17,16 @@
       <link>/cs/project/layman/</link>
       <pubDate>Fri, 23 Apr 2021 11:00:00 +0000</pubDate>
       <guid>/cs/project/layman/</guid>
-      <description>&lt;p&gt;Publishing geospatial data online through &lt;a href=&#34;doc/rest.md&#34;&gt;REST API&lt;/a&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Two publication models available:
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;doc/models.md#layer&#34;&gt;&lt;strong&gt;layer&lt;/strong&gt;&lt;/a&gt;: visual representation of single vector dataset (i.e. ShapeFile or GeoJSON)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;doc/models.md#map&#34;&gt;&lt;strong&gt;map&lt;/strong&gt;&lt;/a&gt;: collection of layers&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Accepts data in &lt;a href=&#34;https://en.wikipedia.org/wiki/GeoJSON&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GeoJSON&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Shapefile&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ShapeFile&lt;/a&gt;, &lt;a href=&#34;https://www.opengeospatial.org/standards/sld&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Styled Layer Descriptor&lt;/a&gt;, &lt;a href=&#34;https://www.opengeospatial.org/standards/se&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Symbology Encoding&lt;/a&gt;, &lt;a href=&#34;https://docs.qgis.org/3.16/en/docs/user_manual/appendices/qgis_file_formats.html#qml-the-qgis-style-file-format&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QGIS Style File Format&lt;/a&gt; or &lt;a href=&#34;https://github.com/hslayers/hslayers-ng/wiki/Composition-schema&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HSLayers Map Composition&lt;/a&gt; format&lt;/li&gt;
-&lt;li&gt;Even large files can be easily uploaded from browser thanks to asynchronous chunk upload&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;doc/security.md#authentication&#34;&gt;OAuth2 authentication&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;doc/security.md#authorization&#34;&gt;Authorization&lt;/a&gt; enables to set read and write access to each layer and map for specific users&lt;/li&gt;
-&lt;li&gt;Asynchronous processing&lt;/li&gt;
-&lt;li&gt;Provides URL endpoints
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;doc/rest.md&#34;&gt;REST API&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;doc/endpoints.md#web-map-service&#34;&gt;Web Map Service (WMS)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;doc/endpoints.md#web-feature-service&#34;&gt;Web Feature Service (WFS)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;doc/endpoints.md#catalogue-service&#34;&gt;Catalogue Service (CSW)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Documented &lt;a href=&#34;doc/security.md&#34;&gt;security system&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Documented &lt;a href=&#34;doc/data-storage.md&#34;&gt;data storage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Configurable by environment variables&lt;/li&gt;
-&lt;li&gt;Standing on the shoulders of Docker, Python, Flask, PostgreSQL, PostGIS, GDAL, QGIS Server, GeoServer, OpenLayers, Celery, Redis, and &lt;a href=&#34;doc/dependencies.md&#34;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Inspired by &lt;a href=&#34;https://github.com/CCSS-CZ/layman&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CCSS-CZ/layman&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+      <description>&lt;p&gt;Layman je služba pro publikování geoporostorových dat na webu prostřednictvím REST API. Layman přijímá vektorová data ve formátech GeoJSON nebo ShapeFile a spolu s vizuálním stylem je zpřístupňuje přes standardizovaná OGC rozhraní: Web Map Service, Web Feature Service a Catalogue Service. Layman umožňuje snadno publikovat i velké soubory dat, a to díky uploadu po částech a asynchronnímu zpracování.&lt;/p&gt;
+&lt;h2 id=&#34;nejdůležitější-vlastnosti&#34;&gt;Nejdůležitější vlastnosti&lt;/h2&gt;
+&lt;h3 id=&#34;vrstvy-a-mapy&#34;&gt;Vrstvy a mapy&lt;/h3&gt;
+&lt;p&gt;Layman podporuje dva základní modely geoprostorových dat: vrstvy a mapy. &lt;strong&gt;Vrstva&lt;/strong&gt; je tvořena kombinací vektorových dat (GeoJSON nebo ShapeFile) a vizualizace (SLD nebo SE styl). &lt;strong&gt;Mapa&lt;/strong&gt; je kolekcí vrstev, která je popsána ve formátu JSON.&lt;/p&gt;
+&lt;h3 id=&#34;přístupnost&#34;&gt;Přístupnost&lt;/h3&gt;
+&lt;p&gt;Existuje více klientských aplikací pro komunikaci s Laymanem prostřednictvím jeho REST API: jednoduchý testovací webový klient, desktopový klient v QGISu a knihovna HSLayers. Publikovaná data jsou přístupná přes standardizovaná OGC rozhraní: Web Map Service, Web Feature Service a Catalogue Service.&lt;/p&gt;
+&lt;h3 id=&#34;bezpečnost&#34;&gt;Bezpečnost&lt;/h3&gt;
+&lt;p&gt;Bezpečnostní systém Laymana využívá dvou známých konceptů: autentizace a autorizace. Běžná konfigurace sestává z autentizace založené na protokolu OAuth2 a autorizace zajišťující, že pouze vlastník dat má práva na jejich editaci.&lt;/p&gt;
+&lt;h3 id=&#34;škálovatelnost&#34;&gt;Škálovatelnost&lt;/h3&gt;
+&lt;p&gt;Díky uploadu po částech lze snadno publikovat i velké soubory dat. Asynchronní zpracování zajišťuje rychlou komunikaci s REST API. Zpracování dat může být distribuováno na více serverů. Layman stojí na ramenou široce využívaných programů, mezi než patří Flask, PostgreSQL, PostGIS, GDAL, GeoServer, Celery a Redis.&lt;/p&gt;
 </description>
     </item>
     

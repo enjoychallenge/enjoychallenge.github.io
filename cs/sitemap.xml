@@ -41,17 +41,17 @@
                 href="/cs/project/geoportals/"
                 />
   </url><url>
-    <loc>/cs/project/muni/</loc>
+    <loc>/cs/project/consultancy/</loc>
     <lastmod>2021-05-19T09:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/project/muni/"
+                href="/project/consultancy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="/cs/project/muni/"
+                href="/cs/project/consultancy/"
                 />
   </url><url>
     <loc>/cs/</loc>
