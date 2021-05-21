@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Enjoy Challenge</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 May 2021 09:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
+    
+    <item>
+      <title>Layman</title>
+      <link>/project/layman/</link>
+      <pubDate>Fri, 23 Apr 2021 11:00:00 +0000</pubDate>
+      <guid>/project/layman/</guid>
+      <description>&lt;p&gt;Publishing geospatial data online through &lt;a href=&#34;doc/rest.md&#34;&gt;REST API&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Two publication models available:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;doc/models.md#layer&#34;&gt;&lt;strong&gt;layer&lt;/strong&gt;&lt;/a&gt;: visual representation of single vector dataset (i.e. ShapeFile or GeoJSON)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;doc/models.md#map&#34;&gt;&lt;strong&gt;map&lt;/strong&gt;&lt;/a&gt;: collection of layers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Accepts data in &lt;a href=&#34;https://en.wikipedia.org/wiki/GeoJSON&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GeoJSON&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Shapefile&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ShapeFile&lt;/a&gt;, &lt;a href=&#34;https://www.opengeospatial.org/standards/sld&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Styled Layer Descriptor&lt;/a&gt;, &lt;a href=&#34;https://www.opengeospatial.org/standards/se&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Symbology Encoding&lt;/a&gt;, &lt;a href=&#34;https://docs.qgis.org/3.16/en/docs/user_manual/appendices/qgis_file_formats.html#qml-the-qgis-style-file-format&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QGIS Style File Format&lt;/a&gt; or &lt;a href=&#34;https://github.com/hslayers/hslayers-ng/wiki/Composition-schema&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HSLayers Map Composition&lt;/a&gt; format&lt;/li&gt;
+&lt;li&gt;Even large files can be easily uploaded from browser thanks to asynchronous chunk upload&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;doc/security.md#authentication&#34;&gt;OAuth2 authentication&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;doc/security.md#authorization&#34;&gt;Authorization&lt;/a&gt; enables to set read and write access to each layer and map for specific users&lt;/li&gt;
+&lt;li&gt;Asynchronous processing&lt;/li&gt;
+&lt;li&gt;Provides URL endpoints
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;doc/rest.md&#34;&gt;REST API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;doc/endpoints.md#web-map-service&#34;&gt;Web Map Service (WMS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;doc/endpoints.md#web-feature-service&#34;&gt;Web Feature Service (WFS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;doc/endpoints.md#catalogue-service&#34;&gt;Catalogue Service (CSW)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Documented &lt;a href=&#34;doc/security.md&#34;&gt;security system&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Documented &lt;a href=&#34;doc/data-storage.md&#34;&gt;data storage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Configurable by environment variables&lt;/li&gt;
+&lt;li&gt;Standing on the shoulders of Docker, Python, Flask, PostgreSQL, PostGIS, GDAL, QGIS Server, GeoServer, OpenLayers, Celery, Redis, and &lt;a href=&#34;doc/dependencies.md&#34;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Inspired by &lt;a href=&#34;https://github.com/CCSS-CZ/layman&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CCSS-CZ/layman&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Brno Urban Grid</title>
+      <link>/project/bug/</link>
+      <pubDate>Thu, 15 Oct 2020 11:00:00 +0000</pubDate>
+      <guid>/project/bug/</guid>
+      <description>&lt;p&gt;Ve spolupráci s firmou &lt;a href=&#34;http://altimapo.cz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Altimapo&lt;/a&gt; tvoříme BrnoUrbanGrid, gridovou statistiku města Brna a Brněnské metropolitní oblasti pro odbornou i širokou veřejnost.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Geoportály</title>
+      <link>/project/geoportals/</link>
+      <pubDate>Fri, 30 Apr 2021 11:00:00 +0000</pubDate>
+      <guid>/project/geoportals/</guid>
+      <description>&lt;p&gt;Ve spolupráci s &lt;a href=&#34;https://www.vukoz.cz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Výzkumný ústav Silva Taroucy pro krajinu a okrasné zahradnictví, v.v.i.&lt;/a&gt; tvoříme webové aplikace pro zobrazení dat laické i odborné veřejnosti.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Konzultace pro ÚVT MUNI</title>
+      <link>/project/muni/</link>
+      <pubDate>Wed, 19 May 2021 09:00:00 +0000</pubDate>
+      <guid>/project/muni/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
