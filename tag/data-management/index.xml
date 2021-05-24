@@ -14,9 +14,9 @@
     
     <item>
       <title>Layman</title>
-      <link>/project/layman/</link>
+      <link>/references/layman/</link>
       <pubDate>Fri, 23 Apr 2021 11:00:00 +0000</pubDate>
-      <guid>/project/layman/</guid>
+      <guid>/references/layman/</guid>
       <description>&lt;p&gt;Layman is a web service for publishing geospatial data online through REST API. It accepts vector data in GeoJSON or ShapeFile format together with visual styling and makes it accessible through standardized OGC APIs: Web Map Service, Web Feature Service, and Catalogue Service. Even large data files can be easily published thanks to chunk upload and asynchronous processing.&lt;/p&gt;
 &lt;h2 id=&#34;most-important-features&#34;&gt;Most Important Features&lt;/h2&gt;
 &lt;h3 id=&#34;layers-and-maps&#34;&gt;Layers and Maps&lt;/h3&gt;

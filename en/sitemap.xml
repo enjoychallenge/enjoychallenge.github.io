@@ -2,56 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/project/layman/</loc>
+    <loc>/references/layman/</loc>
     <lastmod>2021-04-23T11:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="/cs/project/layman/"
+                href="/cs/references/layman/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/project/layman/"
+                href="/references/layman/"
                 />
   </url><url>
-    <loc>/project/bug/</loc>
+    <loc>/references/bug/</loc>
     <lastmod>2020-10-15T11:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="/cs/project/bug/"
+                href="/cs/references/bug/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/project/bug/"
+                href="/references/bug/"
                 />
   </url><url>
-    <loc>/project/geoportals/</loc>
+    <loc>/references/geoportals/</loc>
     <lastmod>2021-04-30T11:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="/cs/project/geoportals/"
+                href="/cs/references/geoportals/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/project/geoportals/"
+                href="/references/geoportals/"
                 />
   </url><url>
-    <loc>/project/consultancy/</loc>
+    <loc>/references/consultancy/</loc>
     <lastmod>2021-05-19T09:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="/cs/project/consultancy/"
+                href="/cs/references/consultancy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/project/consultancy/"
+                href="/references/consultancy/"
                 />
   </url><url>
     <loc>/tag/consultations/</loc>
@@ -80,17 +80,17 @@
                 href="/"
                 />
   </url><url>
-    <loc>/project/</loc>
+    <loc>/references/</loc>
     <lastmod>2021-05-19T09:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="/cs/project/"
+                href="/cs/references/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/project/"
+                href="/references/"
                 />
   </url><url>
     <loc>/tags/</loc>

@@ -14,9 +14,9 @@
     
     <item>
       <title>Layman</title>
-      <link>/cs/project/layman/</link>
+      <link>/cs/references/layman/</link>
       <pubDate>Fri, 23 Apr 2021 11:00:00 +0000</pubDate>
-      <guid>/cs/project/layman/</guid>
+      <guid>/cs/references/layman/</guid>
       <description>&lt;p&gt;Layman je služba pro publikování geoporostorových dat na webu prostřednictvím REST API. Layman přijímá vektorová data ve formátech GeoJSON nebo ShapeFile a spolu s vizuálním stylem je zpřístupňuje přes standardizovaná OGC rozhraní: Web Map Service, Web Feature Service a Catalogue Service. Layman umožňuje snadno publikovat i velké soubory dat, a to díky uploadu po částech a asynchronnímu zpracování.&lt;/p&gt;
 &lt;h2 id=&#34;nejdůležitější-vlastnosti&#34;&gt;Nejdůležitější vlastnosti&lt;/h2&gt;
 &lt;h3 id=&#34;vrstvy-a-mapy&#34;&gt;Vrstvy a mapy&lt;/h3&gt;
