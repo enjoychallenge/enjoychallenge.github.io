@@ -17,16 +17,17 @@
       <link>/references/layman/</link>
       <pubDate>Fri, 23 Apr 2021 11:00:00 +0000</pubDate>
       <guid>/references/layman/</guid>
-      <description>&lt;p&gt;Layman is a web service for publishing geospatial data online through REST API. It accepts vector data in GeoJSON or ShapeFile format together with visual styling and makes it accessible through standardized OGC APIs: Web Map Service, Web Feature Service, and Catalogue Service. Even large data files can be easily published thanks to chunk upload and asynchronous processing.&lt;/p&gt;
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Layman is a web service for publishing geospatial data online through REST API. It accepts vector and raster data in GeoJSON, ShapeFile, GeoTIFF, JPEG2000 and other formats together with visual styling and makes it accessible through standardized OGC APIs: Web Map Service, Web Feature Service, and Catalogue Service. Even large data files can be easily published thanks to chunk upload and asynchronous processing.&lt;/p&gt;
 &lt;h2 id=&#34;most-important-features&#34;&gt;Most Important Features&lt;/h2&gt;
 &lt;h3 id=&#34;layers-and-maps&#34;&gt;Layers and Maps&lt;/h3&gt;
-&lt;p&gt;Layman supports two main models of geospatial data: layers and maps. &lt;strong&gt;Layer&lt;/strong&gt; is created from combination of vector data (GeoJSON or ShapeFile) and visualization (QML, SLD or SE style). &lt;strong&gt;Map&lt;/strong&gt; is collection of layers described in JSON format.&lt;/p&gt;
+&lt;p&gt;Layman supports two main models of geospatial data: layers and maps. &lt;strong&gt;Layer&lt;/strong&gt; is created from combination of vector or raster data (GeoJSON, ShapeFile, GeoTIFF, JPEG2000, PNG, or JPEG) and visualization (SLD, SE or QML style). &lt;strong&gt;Map&lt;/strong&gt; is collection of layers described in JSON format.&lt;/p&gt;
 &lt;h3 id=&#34;acessibility&#34;&gt;Acessibility&lt;/h3&gt;
 &lt;p&gt;There are multiple client applications for communication with Layman through its REST API: simple web test client shipped with Layman, QGIS desktop client, and HSLayers library. Published data are accessible through standardized OGC APIs: Web Map Service, Web Feature Service, and Catalogue Service.&lt;/p&gt;
 &lt;h3 id=&#34;security&#34;&gt;Security&lt;/h3&gt;
 &lt;p&gt;Layman`s security system uses two well-known concepts: authentication and authorization. Common configuration consists of authentication based on widely used OAuth2 protocol and authorization allows users to give read and write access rights to each user on publication level.&lt;/p&gt;
 &lt;h3 id=&#34;scalability&#34;&gt;Scalability&lt;/h3&gt;
-&lt;p&gt;Large data files can be easily published thanks to chunk upload. Asynchronous processing ensures fast communication with REST API. Processing tasks can be distributed on multiple servers. Layman also stands on the shoulders of widely used programs like Flask, PostgreSQL, PostGIS, GDAL, GeoServer, QGIS, Celery, and Redis.&lt;/p&gt;
+&lt;p&gt;Large data files can be easily published thanks to chunk upload. Asynchronous processing ensures fast communication with REST API. Processing tasks can be distributed on multiple servers. Layman also stands on the shoulders of widely used programs like Flask, PostgreSQL, PostGIS, GDAL, GeoServer, QGIS Server, Celery, and Redis.&lt;/p&gt;
 </description>
     </item>
     

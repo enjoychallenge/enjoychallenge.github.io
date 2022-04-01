@@ -54,6 +54,19 @@
                 href="/references/consultancy/"
                 />
   </url><url>
+    <loc>/authors/</loc>
+    <lastmod>2021-05-19T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cs"
+                href="/cs/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/authors/"
+                />
+  </url><url>
     <loc>/tag/consultations/</loc>
     <lastmod>2021-05-19T09:00:00+00:00</lastmod>
     <xhtml:link
@@ -78,6 +91,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="/"
+                />
+  </url><url>
+    <loc>/authors/nobody/</loc>
+    <lastmod>2021-05-19T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cs"
+                href="/cs/authors/nobody/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/authors/nobody/"
                 />
   </url><url>
     <loc>/references/</loc>
@@ -142,18 +168,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/admin/"
-                />
-  </url><url>
-    <loc>/authors/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cs"
-                href="/cs/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/authors/"
                 />
   </url><url>
     <loc>/categories/</loc>
