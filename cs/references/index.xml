@@ -5,7 +5,7 @@
     <link>/cs/references/</link>
       <atom:link href="/cs/references/index.xml" rel="self" type="application/rss+xml" />
     <description>References</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>cs</language><lastBuildDate>Wed, 19 May 2021 09:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>cs</language><lastBuildDate>Mon, 28 Mar 2022 11:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>References</title>
@@ -47,6 +47,14 @@
       <guid>/cs/references/geoportals/</guid>
       <description>&lt;p&gt;Ve spolupráci s &lt;a href=&#34;https://www.vukoz.cz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Výzkumný ústav Silva Taroucy pro krajinu a okrasné zahradnictví, v.v.i.&lt;/a&gt; tvoříme webové aplikace pro zobrazení dat laické i odborné veřejnosti.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>earth.guide</title>
+      <link>/cs/references/earth.guide/</link>
+      <pubDate>Mon, 28 Mar 2022 11:00:00 +0000</pubDate>
+      <guid>/cs/references/earth.guide/</guid>
+      <description></description>
     </item>
     
     <item>
