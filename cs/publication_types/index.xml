@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publication_types | Enjoy Challenge</title>
+    <title>Publication_types | EnjoyChallenge.tech</title>
     <link>/cs/publication_types/</link>
       <atom:link href="/cs/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>cs</language>
     <image>
-      <url>/media/logo_hu47695d5762444fc69bac46572cf3d3a6_24055_300x300_fit_lanczos_2.png</url>
+      <url>/media/logo_huc04f51bea76d968f8ddaf9787a046d4c_14284_300x300_fit_lanczos_2.png</url>
       <title>Publication_types</title>
       <link>/cs/publication_types/</link>
     </image>

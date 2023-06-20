@@ -272,8 +272,8 @@
     <link rel="manifest" href="/cs/index.webmanifest" />
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hu47695d5762444fc69bac46572cf3d3a6_24055_32x32_fill_lanczos_center_2.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu47695d5762444fc69bac46572cf3d3a6_24055_180x180_fill_lanczos_center_2.png" />
+  <link rel="icon" type="image/png" href="/media/icon_huc04f51bea76d968f8ddaf9787a046d4c_14284_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_huc04f51bea76d968f8ddaf9787a046d4c_14284_180x180_fill_lanczos_center_2.png" />
 
   <link rel="canonical" href="/cs/references/layman/" />
 
@@ -290,9 +290,9 @@
   
   <meta property="twitter:card" content="summary_large_image" />
   
-  <meta property="og:site_name" content="Enjoy Challenge" />
+  <meta property="og:site_name" content="EnjoyChallenge.tech" />
   <meta property="og:url" content="/cs/references/layman/" />
-  <meta property="og:title" content="Layman | Enjoy Challenge" />
+  <meta property="og:title" content="Layman | EnjoyChallenge.tech" />
   <meta property="og:description" content="Pro uskupení firem [České centrum pro vědu a společnost](https://www.ccss.cz/), [Lesprojekt služby](https://www.lesprojekt.cz/) a [Wirelessinfo](https://www.wirelessinfo.cz/) tvoříme systém pro správu geoprostorových dat skrz REST API." /><meta property="og:image" content="/cs/references/layman/featured.jpg" />
     <meta property="twitter:image" content="/cs/references/layman/featured.jpg" /><meta property="og:locale" content="cs" />
   
@@ -319,7 +319,7 @@
 
 
 
-  <title>Layman | Enjoy Challenge</title>
+  <title>Layman | EnjoyChallenge.tech</title>
 </head>
 
 
@@ -399,7 +399,7 @@
     
     <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/cs/">
-          <img src="/media/logo_hu47695d5762444fc69bac46572cf3d3a6_24055_0x70_resize_lanczos_2.png" alt="Enjoy Challenge">Enjoy Challenge</a>
+          <img src="/media/logo_huc04f51bea76d968f8ddaf9787a046d4c_14284_0x70_resize_lanczos_2.png" alt="EnjoyChallenge.tech">EnjoyChallenge.tech</a>
     </div>
     
 
@@ -412,7 +412,7 @@
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/cs/"><img src="/media/logo_hu47695d5762444fc69bac46572cf3d3a6_24055_0x70_resize_lanczos_2.png" alt="Enjoy Challenge"></a>
+      <a class="navbar-brand" href="/cs/"><img src="/media/logo_huc04f51bea76d968f8ddaf9787a046d4c_14284_0x70_resize_lanczos_2.png" alt="EnjoyChallenge.tech"></a>
     </div>
     
 
@@ -530,6 +530,43 @@
 
         <li class="nav-item">
           <a class="nav-link " href="/cs/#references"><span>Reference</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/cs/#year_by_year"><span>Rok&nbsp;za&nbsp;rokem</span></a>
         </li>
 
         
@@ -709,7 +746,7 @@
     
 
   <span >
-      <a href="/cs/authors/nobody/">nobody</a></span>
+      <a href="/cs/authors/co-founders/">Co-founders</a></span>
   </div>
   
   
@@ -786,6 +823,22 @@
   
     
   
+  <a class="btn btn-outline-primary btn-page-header" href="https://github.com/LayerManager/layman/blob/master/doc/cs/o-aplikaci.md#o-laymanovi" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    O aplikaci
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
   <a class="btn btn-outline-primary btn-page-header" href="https://github.com/LayerManager/layman" target="_blank" rel="noopener">
     <i class="fab fa-github mr-1"></i>
     Zdrojový kód
@@ -810,18 +863,7 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h2 id="úvod">Úvod</h2>
-<p>Layman je služba pro publikování geoporostorových dat na webu prostřednictvím REST API. Layman přijímá vektorová i rastrová data například ve formátech GeoJSON, ShapeFile GeoTIFF nebo JPEG2000 a spolu s vizuálním stylem je zpřístupňuje přes standardizovaná OGC rozhraní: Web Map Service, Web Feature Service a Catalogue Service. Layman umožňuje snadno publikovat i velké soubory dat, a to díky uploadu po částech a asynchronnímu zpracování.</p>
-<h2 id="nejdůležitější-vlastnosti">Nejdůležitější vlastnosti</h2>
-<h3 id="vrstvy-a-mapy">Vrstvy a mapy</h3>
-<p>Layman podporuje dva základní modely geoprostorových dat: vrstvy a mapy. <strong>Vrstva</strong> je tvořena kombinací vektorových nebo rastrových dat (GeoJSON, ShapeFile, GeoTIFF, JPEG2000, PNG nebo JPEG) a vizualizace (SLD, SE nebo QML styl). <strong>Mapa</strong> je kolekcí vrstev, která je popsána ve formátu JSON.</p>
-<h3 id="přístupnost">Přístupnost</h3>
-<p>Existuje více klientských aplikací pro komunikaci s Laymanem prostřednictvím jeho REST API: jednoduchý testovací webový klient, desktopový klient v QGISu a knihovna HSLayers. Publikovaná data jsou přístupná přes standardizovaná OGC rozhraní: Web Map Service, Web Feature Service a Catalogue Service.</p>
-<h3 id="bezpečnost">Bezpečnost</h3>
-<p>Bezpečnostní systém Laymana využívá dvou známých konceptů: autentizace a autorizace. Běžná konfigurace sestává z autentizace založené na protokolu OAuth2 a autorizace zajišťující, že pouze vlastník dat má práva na jejich editaci.</p>
-<h3 id="škálovatelnost">Škálovatelnost</h3>
-<p>Díky uploadu po částech lze snadno publikovat i velké soubory dat. Asynchronní zpracování zajišťuje rychlou komunikaci s REST API. Zpracování dat může být distribuováno na více serverů. Layman stojí na ramenou široce využívaných programů, mezi než patří Flask, PostgreSQL, PostGIS, GDAL, GeoServer, QGIS Server, Celery a Redis.</p>
-
+      
     </div>
 
     

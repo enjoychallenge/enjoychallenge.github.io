@@ -1,22 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Co-founders | Enjoy Challenge</title>
+    <title>Co-founders | EnjoyChallenge.tech</title>
     <link>/authors/co-founders/</link>
       <atom:link href="/authors/co-founders/index.xml" rel="self" type="application/rss+xml" />
     <description>Co-founders</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 28 Mar 2022 11:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/logo_hu47695d5762444fc69bac46572cf3d3a6_24055_300x300_fit_lanczos_2.png</url>
+      <url>/media/logo_huc04f51bea76d968f8ddaf9787a046d4c_14284_300x300_fit_lanczos_2.png</url>
       <title>Co-founders</title>
       <link>/authors/co-founders/</link>
     </image>
+    
+    <item>
+      <title>Layman</title>
+      <link>/references/layman/</link>
+      <pubDate>Fri, 23 Apr 2021 11:00:00 +0000</pubDate>
+      <guid>/references/layman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BrnoUrbanGrid and DataMapo</title>
+      <link>/references/bug/</link>
+      <pubDate>Thu, 15 Oct 2020 11:00:00 +0000</pubDate>
+      <guid>/references/bug/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>earth.guide</title>
       <link>/references/earth.guide/</link>
       <pubDate>Mon, 28 Mar 2022 11:00:00 +0000</pubDate>
       <guid>/references/earth.guide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geoportals</title>
+      <link>/references/geoportals/</link>
+      <pubDate>Fri, 30 Apr 2021 11:00:00 +0000</pubDate>
+      <guid>/references/geoportals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Consultancy</title>
+      <link>/references/consultancy/</link>
+      <pubDate>Wed, 19 May 2021 09:00:00 +0000</pubDate>
+      <guid>/references/consultancy/</guid>
       <description></description>
     </item>
     

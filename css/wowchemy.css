@@ -9500,6 +9500,10 @@ h1 {
   color: #094067;
   font-weight: bold; }
 
+h2 {
+  color: #094067;
+  font-weight: bold; }
+
 .section-heading p {
   color: #f55c00; }
 
@@ -9515,12 +9519,12 @@ a:hover {
 .enjoy {
   color: white;
   background-color: #f55c00;
-  padding-right: 0.1em;
+  padding: 0 0.1em;
   margin-right: 0.1em;
-  border-top-left-radius: 2em 0.25em;
-  border-bottom-left-radius: 2em 0.25em;
-  border-top-right-radius: 2em 0.5em;
-  border-bottom-right-radius: 0.5em 1em;
+  border-top-left-radius: 2em 0.4em;
+  border-bottom-left-radius: 0.3em 0.7em;
+  border-top-right-radius: 0.3em 1.3em;
+  border-bottom-right-radius: 2em 0.4em;
   transition: border-radius 0.6s ease; }
 
 .enjoy:hover {
@@ -9533,14 +9537,15 @@ a:hover {
   content: "\f500"; }
 
 .page-body .fas,
+.page-body .far,
 .page-body .fab {
   background-color: #f55c00;
   color: white;
   padding: .2em;
-  border-top-left-radius: .5em .8em;
-  border-top-right-radius: .5em .2em;
-  border-bottom-left-radius: .5em .2em;
-  border-bottom-right-radius: .2em .8em; }
+  border-top-left-radius: 0.5em 0.2em;
+  border-bottom-left-radius: 0.2em 0.8em;
+  border-top-right-radius: 0.3em 0.8em;
+  border-bottom-right-radius: 0.5em 0.2em; }
 
 #people h2.mb-4 {
   display: none; }
@@ -9557,7 +9562,8 @@ a:hover {
   margin-right: .3em; }
 
 #hero {
-  height: calc(100vh - 50px); }
+  height: calc(100vh - 50px);
+  max-height: 1000px; }
 
 #hero .text-center {
   text-align: left !important; }

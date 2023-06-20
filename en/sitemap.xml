@@ -28,19 +28,6 @@
                 href="/references/bug/"
                 />
   </url><url>
-    <loc>/references/geoportals/</loc>
-    <lastmod>2021-04-30T11:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cs"
-                href="/cs/references/geoportals/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/references/geoportals/"
-                />
-  </url><url>
     <loc>/references/earth.guide/</loc>
     <lastmod>2022-03-28T11:00:00+00:00</lastmod>
     <xhtml:link
@@ -52,6 +39,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="/references/earth.guide/"
+                />
+  </url><url>
+    <loc>/references/geoportals/</loc>
+    <lastmod>2021-04-30T11:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cs"
+                href="/cs/references/geoportals/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/references/geoportals/"
                 />
   </url><url>
     <loc>/references/consultancy/</loc>
@@ -156,19 +156,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/tag/consultations/"
-                />
-  </url><url>
-    <loc>/authors/nobody/</loc>
-    <lastmod>2021-05-19T09:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cs"
-                href="/cs/authors/nobody/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/authors/nobody/"
                 />
   </url><url>
     <loc>/tag/data-visualization/</loc>

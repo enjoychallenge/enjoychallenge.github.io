@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Enjoy Challenge</title>
+    <title>EnjoyChallenge.tech</title>
     <link>/cs/</link>
       <atom:link href="/cs/index.xml" rel="self" type="application/rss+xml" />
-    <description>Enjoy Challenge</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>cs</language><lastBuildDate>Mon, 28 Mar 2022 11:00:00 +0000</lastBuildDate>
+    <description>EnjoyChallenge.tech</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>cs</language><lastBuildDate>Fri, 01 Apr 2022 11:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/logo_hu47695d5762444fc69bac46572cf3d3a6_24055_300x300_fit_lanczos_2.png</url>
-      <title>Enjoy Challenge</title>
+      <url>/media/logo_huc04f51bea76d968f8ddaf9787a046d4c_14284_300x300_fit_lanczos_2.png</url>
+      <title>EnjoyChallenge.tech</title>
       <link>/cs/</link>
     </image>
     
@@ -17,36 +17,15 @@
       <link>/cs/references/layman/</link>
       <pubDate>Fri, 23 Apr 2021 11:00:00 +0000</pubDate>
       <guid>/cs/references/layman/</guid>
-      <description>&lt;h2 id=&#34;úvod&#34;&gt;Úvod&lt;/h2&gt;
-&lt;p&gt;Layman je služba pro publikování geoporostorových dat na webu prostřednictvím REST API. Layman přijímá vektorová i rastrová data například ve formátech GeoJSON, ShapeFile GeoTIFF nebo JPEG2000 a spolu s vizuálním stylem je zpřístupňuje přes standardizovaná OGC rozhraní: Web Map Service, Web Feature Service a Catalogue Service. Layman umožňuje snadno publikovat i velké soubory dat, a to díky uploadu po částech a asynchronnímu zpracování.&lt;/p&gt;
-&lt;h2 id=&#34;nejdůležitější-vlastnosti&#34;&gt;Nejdůležitější vlastnosti&lt;/h2&gt;
-&lt;h3 id=&#34;vrstvy-a-mapy&#34;&gt;Vrstvy a mapy&lt;/h3&gt;
-&lt;p&gt;Layman podporuje dva základní modely geoprostorových dat: vrstvy a mapy. &lt;strong&gt;Vrstva&lt;/strong&gt; je tvořena kombinací vektorových nebo rastrových dat (GeoJSON, ShapeFile, GeoTIFF, JPEG2000, PNG nebo JPEG) a vizualizace (SLD, SE nebo QML styl). &lt;strong&gt;Mapa&lt;/strong&gt; je kolekcí vrstev, která je popsána ve formátu JSON.&lt;/p&gt;
-&lt;h3 id=&#34;přístupnost&#34;&gt;Přístupnost&lt;/h3&gt;
-&lt;p&gt;Existuje více klientských aplikací pro komunikaci s Laymanem prostřednictvím jeho REST API: jednoduchý testovací webový klient, desktopový klient v QGISu a knihovna HSLayers. Publikovaná data jsou přístupná přes standardizovaná OGC rozhraní: Web Map Service, Web Feature Service a Catalogue Service.&lt;/p&gt;
-&lt;h3 id=&#34;bezpečnost&#34;&gt;Bezpečnost&lt;/h3&gt;
-&lt;p&gt;Bezpečnostní systém Laymana využívá dvou známých konceptů: autentizace a autorizace. Běžná konfigurace sestává z autentizace založené na protokolu OAuth2 a autorizace zajišťující, že pouze vlastník dat má práva na jejich editaci.&lt;/p&gt;
-&lt;h3 id=&#34;škálovatelnost&#34;&gt;Škálovatelnost&lt;/h3&gt;
-&lt;p&gt;Díky uploadu po částech lze snadno publikovat i velké soubory dat. Asynchronní zpracování zajišťuje rychlou komunikaci s REST API. Zpracování dat může být distribuováno na více serverů. Layman stojí na ramenou široce využívaných programů, mezi než patří Flask, PostgreSQL, PostGIS, GDAL, GeoServer, QGIS Server, Celery a Redis.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
-      <title>Brno Urban Grid</title>
+      <title>BrnoUrbanGrid a DataMapo</title>
       <link>/cs/references/bug/</link>
       <pubDate>Thu, 15 Oct 2020 11:00:00 +0000</pubDate>
       <guid>/cs/references/bug/</guid>
-      <description>&lt;p&gt;Ve spolupráci s firmou &lt;a href=&#34;http://altimapo.cz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Altimapo&lt;/a&gt; tvoříme BrnoUrbanGrid, gridovou statistiku města Brna a Brněnské metropolitní oblasti pro odbornou i širokou veřejnost.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Geoportály</title>
-      <link>/cs/references/geoportals/</link>
-      <pubDate>Fri, 30 Apr 2021 11:00:00 +0000</pubDate>
-      <guid>/cs/references/geoportals/</guid>
-      <description>&lt;p&gt;Ve spolupráci s &lt;a href=&#34;https://www.vukoz.cz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Výzkumný ústav Silva Taroucy pro krajinu a okrasné zahradnictví, v.v.i.&lt;/a&gt; tvoříme webové aplikace pro zobrazení dat laické i odborné veřejnosti.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -54,6 +33,22 @@
       <link>/cs/references/earth.guide/</link>
       <pubDate>Mon, 28 Mar 2022 11:00:00 +0000</pubDate>
       <guid>/cs/references/earth.guide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geoportály</title>
+      <link>/cs/references/geoportals/</link>
+      <pubDate>Fri, 30 Apr 2021 11:00:00 +0000</pubDate>
+      <guid>/cs/references/geoportals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vědecko-výzkumné projekty</title>
+      <link>/cs/references/academic_projects/</link>
+      <pubDate>Fri, 01 Apr 2022 11:00:00 +0000</pubDate>
+      <guid>/cs/references/academic_projects/</guid>
       <description></description>
     </item>
     
