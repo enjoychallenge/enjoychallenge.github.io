@@ -5,12 +5,20 @@
     <link>/tag/data-visualization/</link>
       <atom:link href="/tag/data-visualization/index.xml" rel="self" type="application/rss+xml" />
     <description>Data visualization</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 30 Apr 2021 11:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 30 Jun 2024 11:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_huc04f51bea76d968f8ddaf9787a046d4c_14284_300x300_fit_lanczos_2.png</url>
       <title>Data visualization</title>
       <link>/tag/data-visualization/</link>
     </image>
+    
+    <item>
+      <title>Mapotic</title>
+      <link>/references/mapotic/</link>
+      <pubDate>Sun, 30 Jun 2024 11:00:00 +0000</pubDate>
+      <guid>/references/mapotic/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>BrnoUrbanGrid and DataMapo</title>
