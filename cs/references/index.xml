@@ -5,12 +5,20 @@
     <link>/cs/references/</link>
       <atom:link href="/cs/references/index.xml" rel="self" type="application/rss+xml" />
     <description>References</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>cs</language><lastBuildDate>Fri, 01 Apr 2022 11:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>cs</language><lastBuildDate>Sun, 30 Jun 2024 11:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_huc04f51bea76d968f8ddaf9787a046d4c_14284_300x300_fit_lanczos_2.png</url>
       <title>References</title>
       <link>/cs/references/</link>
     </image>
+    
+    <item>
+      <title>Mapotic</title>
+      <link>/cs/references/mapotic/</link>
+      <pubDate>Sun, 30 Jun 2024 11:00:00 +0000</pubDate>
+      <guid>/cs/references/mapotic/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Layman</title>
@@ -29,18 +37,18 @@
     </item>
     
     <item>
-      <title>earth.guide</title>
-      <link>/cs/references/earth.guide/</link>
-      <pubDate>Mon, 28 Mar 2022 11:00:00 +0000</pubDate>
-      <guid>/cs/references/earth.guide/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Geoportály</title>
       <link>/cs/references/geoportals/</link>
       <pubDate>Fri, 30 Apr 2021 11:00:00 +0000</pubDate>
       <guid>/cs/references/geoportals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>earth.guide</title>
+      <link>/cs/references/earth.guide/</link>
+      <pubDate>Mon, 28 Mar 2022 11:00:00 +0000</pubDate>
+      <guid>/cs/references/earth.guide/</guid>
       <description></description>
     </item>
     
