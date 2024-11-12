@@ -5,12 +5,20 @@
     <link>/authors/co-founders/</link>
       <atom:link href="/authors/co-founders/index.xml" rel="self" type="application/rss+xml" />
     <description>Co-founders</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 30 Jun 2024 11:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 04 Nov 2024 11:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_huc04f51bea76d968f8ddaf9787a046d4c_14284_300x300_fit_lanczos_2.png</url>
       <title>Co-founders</title>
       <link>/authors/co-founders/</link>
     </image>
+    
+    <item>
+      <title>ExpertaLabs</title>
+      <link>/references/expertalabs/</link>
+      <pubDate>Mon, 04 Nov 2024 11:00:00 +0000</pubDate>
+      <guid>/references/expertalabs/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Mapotic</title>

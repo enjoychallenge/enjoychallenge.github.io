@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/cs/references/expertalabs/</loc>
+    <lastmod>2024-11-04T11:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/references/expertalabs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cs"
+                href="/cs/references/expertalabs/"
+                />
+  </url><url>
     <loc>/cs/references/mapotic/</loc>
     <lastmod>2024-06-30T11:00:00+00:00</lastmod>
     <xhtml:link
@@ -94,7 +107,7 @@
                 />
   </url><url>
     <loc>/cs/authors/</loc>
-    <lastmod>2024-06-30T11:00:00+00:00</lastmod>
+    <lastmod>2024-11-04T11:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -106,8 +119,21 @@
                 href="/cs/authors/"
                 />
   </url><url>
+    <loc>/cs/tag/automatization/</loc>
+    <lastmod>2024-11-04T11:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tag/automatization/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cs"
+                href="/cs/tag/automatization/"
+                />
+  </url><url>
     <loc>/cs/authors/co-founders/</loc>
-    <lastmod>2024-06-30T11:00:00+00:00</lastmod>
+    <lastmod>2024-11-04T11:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -117,6 +143,45 @@
                 rel="alternate"
                 hreflang="cs"
                 href="/cs/authors/co-founders/"
+                />
+  </url><url>
+    <loc>/cs/</loc>
+    <lastmod>2024-11-04T11:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cs"
+                href="/cs/"
+                />
+  </url><url>
+    <loc>/cs/references/</loc>
+    <lastmod>2024-11-04T11:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/references/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cs"
+                href="/cs/references/"
+                />
+  </url><url>
+    <loc>/cs/tags/</loc>
+    <lastmod>2024-11-04T11:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cs"
+                href="/cs/tags/"
                 />
   </url><url>
     <loc>/cs/tag/data-visualization/</loc>
@@ -130,45 +195,6 @@
                 rel="alternate"
                 hreflang="cs"
                 href="/cs/tag/data-visualization/"
-                />
-  </url><url>
-    <loc>/cs/</loc>
-    <lastmod>2024-06-30T11:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cs"
-                href="/cs/"
-                />
-  </url><url>
-    <loc>/cs/references/</loc>
-    <lastmod>2024-06-30T11:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/references/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cs"
-                href="/cs/references/"
-                />
-  </url><url>
-    <loc>/cs/tags/</loc>
-    <lastmod>2024-06-30T11:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cs"
-                href="/cs/tags/"
                 />
   </url><url>
     <loc>/cs/tag/data-analyses/</loc>
