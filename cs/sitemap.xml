@@ -119,19 +119,6 @@
                 href="/cs/authors/"
                 />
   </url><url>
-    <loc>/cs/tag/automatization/</loc>
-    <lastmod>2024-11-04T11:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tag/automatization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cs"
-                href="/cs/tag/automatization/"
-                />
-  </url><url>
     <loc>/cs/authors/co-founders/</loc>
     <lastmod>2024-11-04T11:00:00+00:00</lastmod>
     <xhtml:link
@@ -158,6 +145,32 @@
                 href="/cs/"
                 />
   </url><url>
+    <loc>/cs/tag/nodejs/</loc>
+    <lastmod>2024-11-04T11:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tag/nodejs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cs"
+                href="/cs/tag/nodejs/"
+                />
+  </url><url>
+    <loc>/cs/tag/python/</loc>
+    <lastmod>2024-11-04T11:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tag/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cs"
+                href="/cs/tag/python/"
+                />
+  </url><url>
     <loc>/cs/references/</loc>
     <lastmod>2024-11-04T11:00:00+00:00</lastmod>
     <xhtml:link
@@ -182,71 +195,6 @@
                 rel="alternate"
                 hreflang="cs"
                 href="/cs/tags/"
-                />
-  </url><url>
-    <loc>/cs/tag/data-visualization/</loc>
-    <lastmod>2024-06-30T11:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tag/data-visualization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cs"
-                href="/cs/tag/data-visualization/"
-                />
-  </url><url>
-    <loc>/cs/tag/data-analyses/</loc>
-    <lastmod>2022-04-01T11:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tag/data-analyses/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cs"
-                href="/cs/tag/data-analyses/"
-                />
-  </url><url>
-    <loc>/cs/tag/geotagging/</loc>
-    <lastmod>2022-03-28T11:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tag/geotagging/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cs"
-                href="/cs/tag/geotagging/"
-                />
-  </url><url>
-    <loc>/cs/tag/consultations/</loc>
-    <lastmod>2021-05-19T09:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tag/consultations/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cs"
-                href="/cs/tag/consultations/"
-                />
-  </url><url>
-    <loc>/cs/tag/data-management/</loc>
-    <lastmod>2021-04-23T11:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tag/data-management/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cs"
-                href="/cs/tag/data-management/"
                 />
   </url><url>
     <loc>/cs/admin/</loc>
